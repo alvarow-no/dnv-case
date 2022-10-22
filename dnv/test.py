@@ -10,3 +10,5 @@ blob_client = container.get_blob_client("test.txt")
 blob_list = container.list_blobs()
 for blob in blob_list:
     print(blob.name)
+
+print("test2")
